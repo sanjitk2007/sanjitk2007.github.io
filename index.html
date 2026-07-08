@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Your Name">
+<title>Your Name</title>
+<style>
+  :root {
+    --text: #1a1a1a;
+    --muted: #555;
+    --link: #1a1a1a;
+    --bg: #ffffff;
+    --rule: #e0e0e0;
+    --max-width: 640px;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 0 20px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .page {
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 18px;
+    padding: 28px 0 18px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
+  nav a {
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+  }
+
+  nav a:hover, nav a:focus-visible {
+    border-bottom-color: var(--text);
+  }
+
+  h1.intro {
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0 0 40px;
+  }
+
+  h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 44px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 26px 0 10px;
+  }
+
+  p {
+    margin: 0 0 14px;
+  }
+
+  ul {
+    margin: 0 0 14px;
+    padding-left: 22px;
+  }
+
+  li {
+    margin-bottom: 4px;
+  }
+
+  a {
+    color: var(--link);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  a:hover, a:focus-visible {
+    color: var(--muted);
+  }
+
+  footer {
+    margin: 56px 0 40px;
+    padding-top: 18px;
+    border-top: 1px solid var(--rule);
+    font-size: 14px;
+    color: var(--muted);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    h1.intro { font-size: 24px; }
+    h2 { font-size: 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/writing/">Writing</a>
+    <a href="/photography/">Photography</a>
+    <a href="/reading/">Reading</a>
+    <a href="/quotes/">Quotes</a>
+    <a href="/travel/">Travel</a>
+  </nav>
+
+  <h1 class="intro">Hi, I'm Your Name.</h1>
+
+  <h2>About Me</h2>
+
+  <h3>Work</h3>
+  <p>
+    I'm a [your current role, e.g. software engineer] at
+    <a href="#">Company Name</a>. I graduated from
+    [Your University] in [Month Year], where I majored in
+    [Major] and minored in [Minor]. I have previously worked
+    for or collaborated with:
+  </p>
+  <ul>
+    <li><a href="#">Person or Team One</a> (2024 &ndash; 2026).</li>
+    <li><a href="#">Company Two</a> (2025).</li>
+    <li><a href="#">Company Three</a> (2024).</li>
+    <li><a href="#">Research Group</a> (2021 &ndash; 2023).</li>
+  </ul>
+
+  <h3>Interests</h3>
+  <p>
+    Academically, I'm interested in [field one] and [field two],
+    with a particular interest in [specific interest]. Casually,
+    I enjoy [hobby one], [hobby two], and [hobby three].
+  </p>
+
+  <h3>Other Sites</h3>
+  <p>You can find me elsewhere on the internet at:</p>
+  <ul>
+    <li><a href="#">GitHub</a>.</li>
+    <li><a href="#">LinkedIn</a>.</li>
+    <li><a href="#">X</a>.</li>
+  </ul>
+
+  <p>Some personal websites of friends:</p>
+  <ul>
+    <li><a href="#">Friend One</a>.</li>
+    <li><a href="#">Friend Two</a>.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>
+    If you'd like to get in touch, you may contact me via email
+    at <a href="mailto:you@example.com">you@example.com</a>.
+  </p>
+
+  <footer>
+    Author: Your Name
+  </footer>
+
+</div>
+</body>
+</html>
